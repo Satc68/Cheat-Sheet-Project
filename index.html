@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Resources/Style.css">
+</head>
+<body>
+    <Main>
+        <header>
+            <div class="header-section">
+                <h1 class="Banner-Heading"><a href="#">All About CSS Selectors</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="tag_selector.html">Tag Selectors</a></li>
+                        <li><a href="#">Class Selectors</a></li>
+                        <li><a href="#">ID Selectors</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="overview">
+                <article>
+                    <h2>Overview</h2>
+                    <h3 >Tag Selectors</h3>
+                    <p class="selector-para">Tag Selectors are used to target the elements with the preferred choice of tag.<br>
+                        ex: p { color: blue;}.
+                    </p>
+                    <h3>Class Selectors</h3>
+                    <p class="selector-para">Class Selectors are used to target the elements by giving them  class names.<br>
+                        ex: .classname{ color blue;}.
+                    </p>
+                    <h3>ID Selectors</h3>
+                    <p class="selector-para">ID Selectors are used to target the elements by giving them id names.<br>
+                        ex: #idname{ color:blue;}.
+                    </p>
+                </article>
+         </section>
+         <section>
+            <table class="speci-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Specificity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Id Selectors.</td>
+                        <td>Highest Proiroty</td>
+                    </tr>
+                    <tr>
+                        <td>Class Selectors</td>
+                        <td>2 Most Proiroty</td>
+                    </tr>
+                    <tr>
+                        <td>Tag Selector</td>
+                        <td>Least Priority</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>

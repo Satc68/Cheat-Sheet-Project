@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+main{
+    width: 960px;
+    margin: auto;
+    font-family: sans-serifs;
+}
+*{
+    box-sizing: border-box;
+}
+.header-section{
+    background-color: cornsilk;
+    
+}
+
+.Banner-Heading {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsalmon;
+    padding: 10px;
+    font-weight: 100;
+    display: inline-block;
+}
+
+/* making the banner heading h1 tag decoration none */
+.Banner-Heading a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+nav ul li:hover{
+    text-decoration-line: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* selcting the p tag  to remove margin */
+
+.selector-para{
+    margin: 0.5em 0;
+}
+
+h3{
+    margin: 0;
+}
+ /* centering the iframe section */
+ iframe{
+     margin: auto;
+ }
+ #iframe{
+     text-align: center;
+     padding: 10% 0%;
+     background-color: linen;
+ }
+
+table, 
+th,
+td {
+     border: 1px solid black;
+     padding: 2px;
+ }
